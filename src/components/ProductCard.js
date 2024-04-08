@@ -111,8 +111,16 @@ const products = [
 
 // ProductCard component
 const ProductCard = ({ id, image, title, price, addToCart }) => {
+  const [buttonText, setTextButton] = useState("Add to Cart");
+
   const handleAddToCart = () => {
     addToCart({ id, image, title, price });
+
+    setTextButton("Adding...");
+
+    setTimeout(() => {
+      setTextButton("Add to Cart");
+    }, 1000);
   };
 
   return (
@@ -123,7 +131,7 @@ const ProductCard = ({ id, image, title, price, addToCart }) => {
         <footer>
           <h3 className="product-price">{formatPriceToIDR(price)}</h3>
           <button className="product-button" onClick={handleAddToCart}>
-            Add to Cart
+            {buttonText}
           </button>
         </footer>
       </div>

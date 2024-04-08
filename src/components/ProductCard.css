@@ -16,10 +16,12 @@
   margin: 10px;
   border: 1px solid transparent; 
   transition: border-color 0.3s; 
+  transition: transform 0.3s;
 }
 
 .product-card:hover {
   border-color: #ee4d2d; 
+  transform: scale(1.02);
 }
 
 .product-image {
