@@ -1,3 +1,6 @@
+<img width="1624" alt="image" src="https://github.com/ryanagungsamudra/talentvis-fe-test/assets/115606537/754d310f-449b-414a-8f15-b717d4de5c53">
+<img width="1624" alt="image" src="https://github.com/ryanagungsamudra/talentvis-fe-test/assets/115606537/5de3eec1-bd88-459a-9553-8478e30f829e">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
